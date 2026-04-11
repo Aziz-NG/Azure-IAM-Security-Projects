@@ -1,9 +1,11 @@
 # 🔐 Lab 1 – Identity & Access Management in Azure
 
-## 📌 Overview
+## 📌 Executive Summary
 
-This lab demonstrates the implementation of **identity and access management controls** in Microsoft Azure using a least-privilege model. The objective was to configure secure access using RBAC, enforce MFA, 
-implement Privileged Identity Management (PIM), and apply Azure Policy to prevent insecure configurations.
+This project demonstrates the implementation of Identity and Access Management (IAM) controls within Microsoft Azure, aligned with industry-recognized security frameworks.
+
+The lab focuses on enforcing least privilege access, strong authentication, privileged access governance, and secure configuration controls, while providing audit-ready evidence and compliance mapping.
+
 
 ---
 
@@ -18,14 +20,16 @@ implement Privileged Identity Management (PIM), and apply Azure Policy to preven
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Architecture Overview
 
-Identity and access were structured using:
+The environment was designed using:
 
-* Azure AD users and groups
-* Role assignments at the subscription level
-* Conditional Access enforcing MFA
+* Microsoft Entra ID users and security groups
+* Azure RBAC role assignments at subscription and resource group scope
+* Conditional Access policies enforcing MFA
 * Azure Policy preventing insecure configurations
+* Azure Monitor and Log Analytics for logging and audit
+
 
 ---
 
@@ -42,10 +46,13 @@ Identity and access were structured using:
 | Group              | Role           | Scope          |
 | ------------------ | -------------- | -------------- |
 | SG-Security-Admins | Security Admin | Subscription   |
-| SG-App-Owners      | Contributor    | Resource Group |
+| SG-App-Owners      | Contributor    | Subscription   |
 | SG-Readers         | Reader         | Subscription   |
 
-📸 See: `/screenshots/rbac-roles.png`
+### Key Principle
+
+All access was assigned based on least privilege, ensuring users only have permissions required for their role.
+
 
 ---
 
@@ -58,6 +65,10 @@ Identity and access were structured using:
   * Justification
   * Time-bound access
 
+### Security Benefit
+
+Reduces risk of standing privileged access and limits exposure to potential compromise.
+
 📸 See: `/screenshots/pim-activation.png`
 
 ---
@@ -66,7 +77,11 @@ Identity and access were structured using:
 
 * Policy applied to **all users**
 * Enforced Multi-Factor Authentication
-* Break-glass account excluded
+* Global administrator account excluded
+
+### Security Benefit
+
+Reduces risk of standing privileged access and limits exposure to potential compromise.
 
 📸 See: `/screenshots/conditional-access.png`
 
@@ -83,6 +98,10 @@ Identity and access were structured using:
 * Attempted to deploy a non-compliant resource
 * Deployment was **blocked by policy**
 
+### Security Benefit
+
+Prevents insecure configurations at deployment time.
+
 📸 See: `/screenshots/policy-deny.png`
 
 ---
@@ -97,11 +116,12 @@ Identity and access were structured using:
 
 ### Sample Query
 
-```kusto id="a91ksl"
 SigninLogs
-| project UserPrincipalName, AppDisplayName, Location, ResultType, TimeGenerated
-| limit 20
-```
+| limit 10
+
+###Security Benefit
+
+Provides traceability, detection capability, and audit readiness
 
 📸 See: `/screenshots/logs-query.png`
 
@@ -112,7 +132,7 @@ SigninLogs
 | Identity           | Role           | Scope          | Justification                |
 | ------------------ | -------------- | -------------- | ---------------------------- |
 | SG-Security-Admins | Security Admin | Subscription   | Managed via PIM (JIT access) |
-| SG-App-Owners      | Contributor    | Resource Group | Application deployment       |
+| SG-App-Owners      | Contributor    | Subscription   | Application deployment       |
 | SG-Readers         | Reader         | Subscription   | Read-only access             |
 
 ---
@@ -127,7 +147,6 @@ This section maps implemented controls to industry standards:
 | NIST CSF  | PR.AC-4            | Least privilege           | RBAC role assignments             | IAM roles screenshot    |
 | NIST CSF  | PR.AC-6            | Privileged access control | PIM eligible roles                | PIM screenshot          |
 | NIST CSF  | PR.IP-1            | Secure configuration      | Azure Policy (deny public access) | Policy screenshot       |
-| ISO 27001 | A.9.2              | User access management    | Group-based access control        | Group config screenshot |
 | ISO 27001 | A.9.4              | System access control     | Conditional Access + MFA          | CA policy screenshot    |
 | SOC 2     | CC6.1              | Logical access security   | MFA enforcement                   | Sign-in logs            |
 | SOC 2     | CC6.2              | Privilege restriction     | PIM + RBAC                        | Role activation logs    |
@@ -147,4 +166,5 @@ This section maps implemented controls to industry standards:
 
 ## 🚀 Key Takeaways
 
-This lab demonstrates the practical implementation of enterprise IAM controls and their alignment with widely recognized security frameworks.
+This lab demonstrates the practical implementation of enterprise-grade IAM controls within Azure. 
+By combining identity governance, access enforcement, and compliance alignment, the environment reflects real-world security practices used in modern cloud organizations.
