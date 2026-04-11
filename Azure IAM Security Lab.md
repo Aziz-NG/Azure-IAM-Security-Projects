@@ -68,6 +68,8 @@ This environment includes:
 
 > All access follows the **Principle of Least Privilege**, ensuring users only receive required permissions.
 
+<img width="1545" height="402" alt="RBAC Role assignments" src="https://github.com/user-attachments/assets/94a1c790-cb3a-413e-bb26-aa0973597d7e" />
+
 ---
 
 ## ⏱️ Privileged Identity Management (PIM)
@@ -83,7 +85,10 @@ This environment includes:
 
 Reduces risk of **standing privileged access** and limits attack surface.
 
-📸 [View Screenshot](./screenshots/pim-activation.png)
+<img width="1786" height="318" alt="PIM eligible roles" src="https://github.com/user-attachments/assets/bcf588c4-2037-4605-b926-da1cde329ebb" />
+
+
+<img width="1893" height="954" alt="PIM Activation" src="https://github.com/user-attachments/assets/833c602b-25ba-4c26-b6bf-4087f3bad2db" />
 
 ---
 
@@ -97,7 +102,7 @@ Reduces risk of **standing privileged access** and limits attack surface.
 
 Protects against **credential compromise and unauthorized access**.
 
-📸 [View Screenshot](./screenshots/conditional-access.png)
+<img width="1371" height="807" alt="MFA Enforcement" src="https://github.com/user-attachments/assets/31b77aa6-1795-4a53-ba1d-ae9a10f2caa0" />
 
 ---
 
@@ -116,7 +121,7 @@ Protects against **credential compromise and unauthorized access**.
 
 Prevents insecure resources from being deployed.
 
-📸 [View Screenshot](./screenshots/policy-deny.png)
+<img width="1899" height="494" alt="Azure Policy Enforcement" src="https://github.com/user-attachments/assets/7eccbefb-be1d-4ddf-8d2b-68308c876581" />
 
 ---
 
@@ -143,7 +148,7 @@ Provides:
 * Threat detection capability
 * Audit readiness
 
-📸 [View Screenshot](./screenshots/logs-query.png)
+<img width="1594" height="645" alt="Log Analytics query results" src="https://github.com/user-attachments/assets/cf0c117e-beab-44fb-b512-30253ef41d24" />
 
 ---
 
