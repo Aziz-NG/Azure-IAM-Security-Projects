@@ -197,7 +197,3 @@ It reflects practices used in:
 * Compliance-driven organizations
 
 ---
-
-## 📄 Optional: Full Report
-
-📥 [Download PDF Version](./Lab1-IAM.pdf)
