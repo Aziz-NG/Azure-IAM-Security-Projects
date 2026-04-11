@@ -6,7 +6,6 @@ This project demonstrates the implementation of Identity and Access Management (
 
 The lab focuses on enforcing least privilege access, strong authentication, privileged access governance, and secure configuration controls, while providing audit-ready evidence and compliance mapping.
 
-
 ---
 
 ## 🎯 Objectives
@@ -30,7 +29,6 @@ The environment was designed using:
 * Azure Policy preventing insecure configurations
 * Azure Monitor and Log Analytics for logging and audit
 
-
 ---
 
 ## 👥 Identity & RBAC Configuration
@@ -52,7 +50,6 @@ The environment was designed using:
 ### Key Principle
 
 All access was assigned based on least privilege, ensuring users only have permissions required for their role.
-
 
 ---
 
