@@ -60,9 +60,9 @@ This environment includes:
 
 | Group              | Role           | Scope        |
 | ------------------ | -------------- | ------------ |
-| SG-Security-Admins | Security Admin | Subscription |
-| SG-App-Owners      | Contributor    | Subscription |
-| SG-Readers         | Reader         | Subscription |
+| Security-Admins    | Security Admin | Subscription |
+| App-Owners         | Contributor    | Subscription |
+| Readers            | Reader         | Subscription |
 
 ### 🔐 Security Principle
 
