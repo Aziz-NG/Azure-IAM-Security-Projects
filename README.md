@@ -2,16 +2,7 @@
 ---
 
 ## 🛡️ Professional Overview
-I am a dedicated IT Security Consultant with a deep focus on **Cloud Security, Networking, and Governance**. With a "Security-First" mindset, I specialize in bridging the gap between complex technical infrastructure and business compliance requirements (NIST, ISO 27001, Law 25).
-
-* 🌍 **Bilingual:** Fluent in French & English.
-* ☁️ **Cloud Savvy:** Expertise across Azure, GCP, and AWS.
-* ⚖️ **Compliance:** Deep understanding of PIPEDA and Quebec's Law 25.
-Currently seeking opportunities as a:
-
-* 🔍 Security Analyst
-* 🛡️ Cybersecurity Consultant
-* ☁️ Cloud Security Analyst
+I am a dedicated IT bilingual Security Consultant with a deep focus on **Cloud Security, Networking, and Governance**. With a "Security-First" mindset, I specialize in bridging the gap between complex technical infrastructure and business compliance requirements (NIST, ISO 27001, Law 25).
 
 ---
 
@@ -26,23 +17,6 @@ Hands-on implementation of enterprise IAM controls in Azure:
 * Multi-Factor Authentication (MFA)
 * Azure Policy enforcement
 * Logging & Monitoring (SIEM-ready)
-
-👉 **View Project:** https://github.com/YOUR-USERNAME/YOUR-REPO
-
----
-
-## 🧠 Certifications
-
-* CISSP (Certified Information Systems Security Professional)
-* CCSP (Certified Cloud Security Professional)
-* GCP Associate Cloud Engineer
-* AWS Cloud Practitioner
-* Cisco CCNA
-* CompTIA Security+
-* CompTIA Network+
-* CompTIA A+
-
-📌 *Currently pursuing: Microsoft AZ-500 (Azure Security Engineer)*
 
 ---
 
