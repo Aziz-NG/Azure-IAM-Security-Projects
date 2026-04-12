@@ -1,4 +1,4 @@
-# 👨‍💻 Abdel-Aziz NG
+# Hello, I'm Aziz 👋
 ---
 
 ## 🔐 Cybersecurity Analyst | Cloud Security | IAM
