@@ -1,9 +1,4 @@
 # 👨‍💻 Abdel-Aziz NG
-
-📍 Montreal, QC, Canada
-📧 [nganaziz@yahoo.fr](mailto:nganaziz@yahoo.fr)
-🔗 https://linkedin.com/in/abdel-aziz-ng-4b4b62259
-
 ---
 
 ## 🔐 Cybersecurity Analyst | Cloud Security | IAM
