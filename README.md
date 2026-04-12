@@ -1,12 +1,12 @@
 # Hello, I'm Aziz 👋
 ---
 
-## 🔐 Cybersecurity Analyst | Cloud Security | IAM
+## 🛡️ Professional Overview
+I am a dedicated IT Security Consultant with a deep focus on **Cloud Security, Networking, and Governance**. With a "Security-First" mindset, I specialize in bridging the gap between complex technical infrastructure and business compliance requirements (NIST, ISO 27001, Law 25).
 
-Certified cybersecurity professional with strong expertise in **cloud security, identity & access management, and risk frameworks**.
-
-I specialize in implementing **secure, compliant cloud environments** aligned with **NIST, ISO 27001, and SOC 2**.
-
+* 🌍 **Bilingual:** Fully fluent in French & English.
+* ☁️ **Cloud Savvy:** Expertise across Azure, GCP, and AWS.
+* ⚖️ **Compliance:** Deep understanding of PIPEDA and Quebec's Law 25.
 Currently seeking opportunities as a:
 
 * 🔍 Security Analyst
