@@ -56,4 +56,3 @@ I am actively seeking opportunities in cybersecurity.
 * 📧 [Email](mailto:aziznganansou@gmail.com)
 
 ---
-# Azure-Security-Projects
