@@ -4,7 +4,7 @@
 ## 🛡️ Professional Overview
 I am a dedicated IT Security Consultant with a deep focus on **Cloud Security, Networking, and Governance**. With a "Security-First" mindset, I specialize in bridging the gap between complex technical infrastructure and business compliance requirements (NIST, ISO 27001, Law 25).
 
-* 🌍 **Bilingual:** Fully fluent in French & English.
+* 🌍 **Bilingual:** Fluent in French & English.
 * ☁️ **Cloud Savvy:** Expertise across Azure, GCP, and AWS.
 * ⚖️ **Compliance:** Deep understanding of PIPEDA and Quebec's Law 25.
 Currently seeking opportunities as a:
@@ -46,37 +46,14 @@ Hands-on implementation of enterprise IAM controls in Azure:
 
 ---
 
-## 🛠️ Technical Skills
+## 🛠 Technical Toolkit
 
-### 🔐 Security
-
-* IAM (RBAC, PIM, Conditional Access)
-* SIEM & Logging (Azure Monitor, Log Analytics)
-* Network Security (Firewalls, VPNs, IDS/IPS)
-* Encryption & Data Protection
-* Patch Management & Hardening
-
-### ☁️ Cloud & Infrastructure
-
-* Microsoft Azure (Entra ID, Policy, RBAC)
-* AWS & GCP fundamentals
-* Windows & Linux Server Hardening
-* Active Directory
-* Virtualization
-
-### 📜 Frameworks & Compliance
-
-* NIST Cybersecurity Framework
-* ISO 27001
-* SOC 2
-* PIPEDA & Law 25 (Quebec Privacy Law)
-
----
-
-## 🌍 Languages
-
-* 🇫🇷 French — Native
-* 🇬🇧 English — Professional
+| Category | Skills & Tools |
+| :--- | :--- |
+| **Certifications** | CISSP, CCSP, CCNA, Security+, Network+, A+, GCP ACE, AWS CP |
+| **Security & GRC** | NIST, ISO 27001, SOC 2, IAM, SIEM, Firewall/VPN, IDS/IPS |
+| **Infrastructure** | Windows/Linux Hardening, Active Directory, Cisco, ServiceNow |
+| **In Progress** | Microsoft AZ-500 (Azure Security Technologies) |
 
 ---
 
