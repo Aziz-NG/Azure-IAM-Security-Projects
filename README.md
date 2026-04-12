@@ -52,8 +52,8 @@ Hands-on implementation of enterprise IAM controls in Azure:
 
 I am actively seeking opportunities in cybersecurity.
 
-* 💼 https://linkedin.com/in/abdel-aziz-ng-4b4b62259
-* 📧 [nganaziz@yahoo.fr](mailto:nganaziz@yahoo.fr)
+* 💼 [LinkedIn](https://linkedin.com/in/abdel-aziz-ng-4b4b62259)
+* 📧 [Email](mailto:aziznganansou@gmail.com)
 
 ---
 # Azure-Security-Projects
