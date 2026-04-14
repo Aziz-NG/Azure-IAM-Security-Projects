@@ -1,0 +1,204 @@
+# 🧠 AI-Enhanced Identity & Access Management Lab (Azure)
+
+## 📌 Overview
+
+This project demonstrates the implementation of an **AI-enhanced Identity and Access Management (IAM) architecture** using Microsoft Entra ID and Azure security services.
+
+The lab focuses on combining traditional IAM controls with **AI-driven risk detection, adaptive access policies, and behavioral analytics**.
+
+---
+
+## 🎯 Objectives
+
+* Implement secure identity management using Entra ID
+* Configure **AI-based risk detection** with Identity Protection
+* Enforce **adaptive access control** using Conditional Access
+* Apply **AI-assisted governance** via Access Reviews
+* Simulate **security events and anomalies**
+* Analyze logs using **behavioral detection queries**
+* Improve posture using **Microsoft Defender for Cloud**
+
+---
+
+## 🧱 Architecture Components
+
+* **Microsoft Entra ID**
+* **Identity Protection (AI Risk Engine)**
+* **Conditional Access (Adaptive MFA)**
+* **Access Reviews (AI Decision Helpers)**
+* **Log Analytics Workspace**
+* **Microsoft Defender for Cloud**
+* **Azure Policy**
+
+---
+
+## 🔐 Key Implementations
+
+### 1. AI-Based Risk Detection
+
+* Enabled **User Risk Policy**
+* Enabled **Sign-in Risk Policy**
+* Enforced MFA for medium/high risk users
+* Blocked high-risk sign-ins
+
+---
+
+### 2. Role-Based Access Control (RBAC)
+
+#### Users
+
+* sec-admin
+* app-owner
+* reader-user
+
+#### Groups
+
+* SG-Security-Admins
+* SG-App-Owners
+* SG-Readers
+
+#### Principle
+
+* Least privilege access enforced
+
+---
+
+### 3. 🧠 AI-Powered Access Reviews
+
+Instead of relying on reactive alerts, this lab uses **AI-assisted access governance**.
+
+#### Configuration
+
+* Scope: Global Administrator, Security Administrator
+* Enabled **Decision Helpers**
+* Rule: *No sign-in within 30 days*
+
+#### AI Behavior
+
+* Detects inactive privileged users
+* Recommends access removal
+
+> Example: *“User is inactive; AI recommends Deny.”*
+
+---
+
+### 4. 🔐 Adaptive Conditional Access
+
+* Policy applied to all users and cloud apps
+* Condition:
+
+  * Sign-in risk ≥ Medium
+* Control:
+
+  * Require MFA
+
+---
+
+### 5. 📊 AI-Powered Logging & Detection
+
+Logs were sent to **Log Analytics** and analyzed using KQL.
+
+#### Sample Queries
+
+**Unusual Location Detection**
+
+```kusto
+SigninLogs
+| summarize Locations = make_set(Location) by UserPrincipalName
+```
+
+**Failed Login Detection**
+
+```kusto
+SigninLogs
+| where ResultType != 0
+| summarize FailedAttempts = count() by UserPrincipalName
+| order by FailedAttempts desc
+```
+
+**Privileged Activity Monitoring**
+
+```kusto
+AuditLogs
+| where OperationName contains "Add member" or OperationName contains "Activate"
+```
+
+---
+
+## 🧪 Testing Methodology
+
+To simulate real-world conditions:
+
+* Multiple user logins were performed
+* Failed login attempts were generated
+* Role assignments and group changes were executed
+
+This allowed realistic behavioral patterns for detection.
+
+---
+
+## 🛡️ Security Posture & AI Insights
+
+### Microsoft Defender for Cloud
+
+* Enabled security posture monitoring
+* Reviewed **Secure Score**
+* Applied recommendations:
+
+  * Restrict public access
+  * Improve resource security
+
+---
+
+### Azure Policy
+
+* Denied public access configurations
+* Audited secure resource settings
+
+---
+
+## 📊 Compliance Mapping
+
+| Framework | Control        | Implementation         | AI Enhancement       |
+| --------- | -------------- | ---------------------- | -------------------- |
+| NIST      | PR.AC-1        | Identity management    | Risk detection       |
+| NIST      | PR.AC-6        | Access control         | AI access reviews    |
+| ISO 27001 | A.9.4          | Access restrictions    | Adaptive MFA         |
+| SOC 2     | CC6            | Monitoring             | Behavioral analytics |
+| Loi 25    | Access control | Risk-based enforcement |                      |
+
+---
+
+## 📸 Screenshots (Suggested)
+
+* Identity Protection policies
+* Conditional Access policies
+* Access Review with AI recommendation
+* Log Analytics queries
+* Defender Secure Score
+* Azure Policy denial
+
+---
+
+## 🧠 Key Takeaways
+
+* IAM can be enhanced using **AI-driven decision making**
+* Security is improved with **adaptive and contextual controls**
+* Behavioral analysis is critical for detecting anomalies
+* Governance can shift from **manual review → AI-assisted decisions**
+
+---
+
+## 🚀 Future Improvements
+
+* Integrate Microsoft Sentinel (SIEM)
+* Automate response with Logic Apps
+* Simulate advanced attack scenarios
+* Implement continuous access evaluation
+
+---
+
+## 📌 Author
+
+Your Name
+Cloud Security / Azure IAM Lab Project
