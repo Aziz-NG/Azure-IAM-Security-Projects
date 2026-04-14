@@ -173,3 +173,13 @@ As of testing, Defender did not immediately flag the issue. This highlights a cr
 * Governance evolves from **manual review → AI-assisted decisions**
 
 ---
+### 🚀 Summary
+
+This lab demonstrates how modern IAM can be transformed using AI to deliver:
+
+* Smarter access decisions
+* Reduced attack surface
+* Automated governance
+* Faster threat detection
+
+A practical foundation for building **intelligent, adaptive cloud security architectures.**
