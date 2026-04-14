@@ -167,9 +167,9 @@ As of testing, Defender did not immediately flag the issue. This highlights a cr
 
 ## 🧠 Key Takeaways
 
-* IAM can be enhanced using **AI-driven decision making**
+* IAM is enhanced using **AI-driven decision making**
 * Security is improved with **adaptive and contextual controls**
 * Behavioral analysis is critical for detecting anomalies
-* Governance can shift from **manual review → AI-assisted decisions**
+* Governance evolves from **manual review → AI-assisted decisions**
 
 ---
