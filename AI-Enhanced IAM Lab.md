@@ -157,6 +157,10 @@ As of testing, Defender did not immediately flag the issue. This highlights a cr
 * **Detection latency** can take hours (up to ~24h)
 * ### Azure Policy enforcement is immediate
 
+  <img width="1893" height="368" alt="image" src="https://github.com/user-attachments/assets/4ba484ba-ad78-472f-b8a1-860609b4f61e" />
+  
+
+
 ➡️ Conclusion: Use **“Deny” policy** for high-risk configurations whenever possible
 
 ---
