@@ -90,15 +90,11 @@ Instead of relying on reactive alerts, this lab uses **AI-assisted access govern
 
 ---
 
-### 4. 🔐 Adaptive Conditional Access
+### 5. 🔐 Adaptive Conditional Access
 
-* Policy applied to all users and cloud apps
-* Condition:
+Policy Logic: Created a risk-based Conditional Access (CA) policy.
 
-  * Sign-in risk ≥ Medium
-* Control:
-
-  * Require MFA
+Enforcement: Access is granted to standard users, but an **MFA Challenge** is automatically triggered if the AI risk level is Medium or High.
 
 ---
 
