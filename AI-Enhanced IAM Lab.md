@@ -132,7 +132,8 @@ SigninLogs
 * Reviewed **Secure Score**
 * Created a Storage account with public access enabled
 * Looked for the expected recommendation: Restrict public access
-  '#### Observation on Monitoring Latency:' As of 6.27 PM, icrosoft Defender for Cloud has not yet generated a recommendation for this misconfiguration. This highlights a critical security lesson: Prevention (Azure Policy) is superior to Detection (Defender) because prevention is instantaneous, whereas detection depends on scanning cycles that can take up to 24 hours. This justifies the use of 'Deny' policies for high-risk configurations like public storage."
+  
+    **Observation on Monitoring Latency:** As of 6.27 PM, Microsoft Defender for Cloud has not yet generated a recommendation for this misconfiguration. This highlights a critical security lesson: Prevention (Azure Policy) is superior to Detection (Defender) because prevention is instantaneous, whereas detection depends on scanning cycles that can take up to 24 hours. This justifies the use of 'Deny' policies for high-risk configurations like public storage."
 
 ---
 
