@@ -151,10 +151,10 @@ As of testing, Defender did not immediately flag the issue. This highlights a cr
 
 **Prevention > Detection**
 
-* Detection latency can take hours (up to ~24h)
-* ###Azure Policy enforcement is immediate
+* **Detection latency** can take hours (up to ~24h)
+* ### Azure Policy enforcement is immediate
 
-➡️ Conclusion: Use “Deny” policies for high-risk configurations whenever possible
+➡️ Conclusion: Use **“Deny” policy** for high-risk configurations whenever possible
 
 ---
 
