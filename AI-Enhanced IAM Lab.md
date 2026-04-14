@@ -41,6 +41,8 @@ The lab focuses on combining traditional IAM controls with **AI-driven risk dete
 * Enforced MFA for medium/high risk users
 * Blocked high-risk sign-ins
 
+<img width="1511" height="187" alt="Identity Protection policies" src="https://github.com/user-attachments/assets/478add8d-67cf-4319-b7ee-9474960e0f7e" />
+
 ---
 
 ### 2. Role-Based Access Control (RBAC)
@@ -69,6 +71,8 @@ The lab focuses on combining traditional IAM controls with **AI-driven risk dete
 
 * Zero Standing Access: Enforced Just-In-Time (JIT) activation, requiring MFA and business justification for role elevation.
 
+  <img width="1833" height="320" alt="PIM" src="https://github.com/user-attachments/assets/8db00373-d64d-4903-bddf-f452b077266b" />
+
 ---
 
 ### 4. 🧠 AI-Powered Access Reviews
@@ -80,6 +84,10 @@ Instead of relying on reactive alerts, this lab uses **AI-assisted access govern
 * Scope: Security Administrator
 * Enabled **Decision Helpers**
 * Rule: *No sign-in within 30 days*
+
+<img width="628" height="640" alt="AI Powered Access Reviews 1" src="https://github.com/user-attachments/assets/32f1646e-d6af-402d-82c7-712a264a32f0" />
+
+<img width="1835" height="434" alt="Access review" src="https://github.com/user-attachments/assets/f9e46e83-ac69-428f-8c15-19ae679a7810" />
 
 #### AI Behavior
 
@@ -96,6 +104,8 @@ Policy Logic: Created a risk-based Conditional Access (CA) policy.
 
 Enforcement: Access is granted to standard users, but an **MFA Challenge** is automatically triggered if the AI risk level is Medium or High.
 
+<img width="1657" height="168" alt="Adaptive CAP" src="https://github.com/user-attachments/assets/c0af83c5-e261-45e4-8879-938a6476d958" />
+
 ---
 
 ### 6. 📊 AI-Powered Logging & Detection
@@ -111,6 +121,8 @@ SigninLogs
 | summarize Locations = make_set(Location) by UserPrincipalName
 ```
 
+<img width="1587" height="429" alt="Unusual Location detection" src="https://github.com/user-attachments/assets/ff44da39-6668-407b-8056-076c9278be3c" />
+
 **Failed Login Detection**
 
 ```kusto
@@ -120,7 +132,7 @@ SigninLogs
 | order by FailedAttempts desc
 ```
 
-**Privileged Activity Monitoring**
+<img width="1633" height="446" alt="Login Detection" src="https://github.com/user-attachments/assets/1c086c2c-8e22-4b53-b240-22d35d428ea1" />
 
 ---
 
