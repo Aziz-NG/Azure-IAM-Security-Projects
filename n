@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This project demonstrates the implementation of an **AI-enhanced Identity and Access Management (IAM) architecture** using Microsoft Entra ID and Azure security services.
+This project is an AI-enhanced version of the previous lab. It demonstrates the implementation of an **AI-enhanced Identity and Access Management (IAM) architecture** using Microsoft Entra ID and Azure security services.
 
 The lab focuses on combining traditional IAM controls with **AI-driven risk detection, adaptive access policies, and behavioral analytics**.
 
@@ -63,13 +63,21 @@ The lab focuses on combining traditional IAM controls with **AI-driven risk dete
 
 ---
 
-### 3. 🧠 AI-Powered Access Reviews
+### 3. Privileged Identity Management (PIM)
+
+* Role Strategy: Assigned Eligible status to sec-admin for high-privilege roles.
+
+* Zero Standing Access: Enforced Just-In-Time (JIT) activation, requiring MFA and business justification for role elevation.
+
+---
+
+### 4. 🧠 AI-Powered Access Reviews
 
 Instead of relying on reactive alerts, this lab uses **AI-assisted access governance**.
 
 #### Configuration
 
-* Scope: Global Administrator, Security Administrator
+* Scope: Security Administrator
 * Enabled **Decision Helpers**
 * Rule: *No sign-in within 30 days*
 
