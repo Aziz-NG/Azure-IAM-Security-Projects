@@ -147,6 +147,8 @@ SigninLogs
      
 ### Key Observation
 
+<img width="1732" height="484" alt="image" src="https://github.com/user-attachments/assets/e494be83-c79a-4f82-9ec0-574ae7e8b3e4" />
+
 As of testing, Defender did not immediately flag the issue. This highlights a critical security principle:
 
 **Prevention > Detection**
