@@ -126,18 +126,27 @@ SigninLogs
 
 ## 🛡️ Security Posture & AI Insights
 
-### Microsoft Defender for Cloud
+**Microsoft Defender for Cloud**
 
-* Used fundational CSPM
-* Reviewed **Secure Score**
-* Created a Storage account with public access enabled
-* Looked for the expected recommendation: Restrict public access
-  
-    **Observation on Monitoring Latency:** As of 6.27 PM, Microsoft Defender for Cloud has not yet generated a recommendation for this misconfiguration. This highlights a critical security lesson: Prevention (Azure Policy) is superior to Detection (Defender) because prevention is instantaneous, whereas detection depends on scanning cycles that can take up to 24 hours. This justifies the use of 'Deny' policies for high-risk configurations like public storage."
+* Used foundational CSPM capabilities
+* Reviewed Secure Score
+* Simulated misconfiguration:
+   * Created a storage account with public access enabled
+     
+### Key Observation
+
+As of testing, Defender did not immediately flag the issue. This highlights a critical security principle:
+
+**Prevention > Detection**
+
+* Detection latency can take hours (up to ~24h)
+* ###Azure Policy enforcement is immediate
+
+➡️ Conclusion: Use “Deny” policies for high-risk configurations whenever possible
 
 ---
 
-### Assigned Azure Policy
+### Assigned Azure Policy 
 
 * Denied public access configurations
 * Audited secure resource settings
