@@ -55,9 +55,9 @@ The lab focuses on combining traditional IAM controls with **AI-driven risk dete
 
 #### Groups
 
-* SG-Security-Admins
-* SG-App-Owners
-* SG-Readers
+* Security-Admins
+* App-Owners
+* Readers
 
 #### Principle
 
