@@ -52,9 +52,9 @@ This environment includes:
 
 ### 🔹 Security Groups
 
-* `SG-Security-Admins`
-* `SG-App-Owners`
-* `SG-Readers`
+* `Security-Admins`
+* `App-Owners`
+* `Readers`
 
 ### 🔹 Role Assignments
 
