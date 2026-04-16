@@ -1,10 +1,10 @@
-# 🧠 AI-Enhanced Identity & Access Management Lab (Azure)
+# 🧠 AI-Enhanced Identity & Access Management Project (Azure)
 
 ## 📌 Executive Summary
 
 This project is an AI-enhanced version of the previous lab. It demonstrates the implementation of an **AI-enhanced Identity and Access Management (IAM) architecture** using Microsoft Entra ID and Azure security services.
 
-The lab focuses on combining traditional IAM controls with **AI-driven risk detection, adaptive access policies, and behavioral analytics**.
+It focuses on combining traditional IAM controls with **AI-driven risk detection, adaptive access policies, and behavioral analytics**.
 
 ---
 
@@ -194,7 +194,7 @@ As of testing, Defender did not immediately flag the issue. This highlights a cr
 ---
 ### 🚀 Summary
 
-This lab demonstrates how modern IAM can be transformed using AI to deliver:
+The project demonstrates how modern IAM can be transformed using AI to deliver:
 
 * Smarter access decisions
 * Reduced attack surface
