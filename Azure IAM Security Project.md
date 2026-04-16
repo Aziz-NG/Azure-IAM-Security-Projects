@@ -1,4 +1,4 @@
-# 🔐 Azure IAM Security Lab
+# 🔐 Azure IAM Security Project
 
 > Hands-on implementation of enterprise-grade Identity & Access Management (IAM) controls in Microsoft Azure, aligned with NIST, ISO 27001, and SOC 2.
 
@@ -13,7 +13,7 @@
 
 This project demonstrates the implementation of **Identity and Access Management (IAM)** controls in Azure using a **Zero Trust security model**.
 
-The lab enforces:
+The project enforces:
 
 * Least privilege access
 * Strong authentication (MFA)
@@ -156,9 +156,9 @@ Provides:
 
 | Identity           | Role           | Scope        | Justification                |
 | ------------------ | -------------- | ------------ | ---------------------------- |
-| SG-Security-Admins | Security Admin | Subscription | Managed via PIM (JIT access) |
-| SG-App-Owners      | Contributor    | Subscription | Application deployment       |
-| SG-Readers         | Reader         | Subscription | Read-only access             |
+|    Security-Admins | Security Admin | Subscription | Managed via PIM (JIT access) |
+|    App-Owners      | Contributor    | Subscription | Application deployment       |
+|    Readers         | Reader         | Subscription | Read-only access             |
 
 ---
 
@@ -188,7 +188,7 @@ Provides:
 
 ## 🚀 Key Takeaways
 
-This lab demonstrates how to implement **real-world cloud IAM security controls** using Azure.
+This project demonstrates how to implement **real-world cloud IAM security controls** using Azure.
 
 It reflects practices used in:
 
