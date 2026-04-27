@@ -2,7 +2,7 @@
 
 ## 📌 Executive Summary
 
-This project is an AI-enhanced version of the previous lab. It demonstrates the implementation of an **AI-enhanced Identity and Access Management (IAM) architecture** using Microsoft Entra ID and Azure security services.
+This project is an AI-enhanced version of the previous one. It demonstrates the implementation of an **AI-enhanced Identity and Access Management (IAM) architecture** using Microsoft Entra ID and Azure security services.
 
 It focuses on combining traditional IAM controls with **AI-driven risk detection, adaptive access policies, and behavioral analytics**.
 
@@ -152,7 +152,7 @@ SigninLogs
 
 As of testing, Defender did not immediately flag the issue. This highlights a critical security principle:
 
-**Prevention > Detection**
+**Prevention over Detection**
 
 * **Detection latency** can take hours (up to ~24h)
 * ### Azure Policy enforcement is immediate
