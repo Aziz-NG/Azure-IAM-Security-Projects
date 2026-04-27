@@ -9,42 +9,34 @@
 
 ---
 
-## 📌 Executive Summary
+## 📌 Probelm Summary
 
-This project demonstrates the implementation of **Identity and Access Management (IAM)** controls in Azure using a **Zero Trust security model**.
+Organizations operating in cloud environments frequently struggle with **over-permissioned accounts, weak authentication controls, and lack of visibility into user activity**. These gaps increase the risk of **credential compromise, privilege escalation, and unauthorized resource deployment**—all common entry points for modern attacks.
 
-The project enforces:
-
-* Least privilege access
-* Strong authentication (MFA)
-* Just-in-time privileged access
-* Secure configuration policies
-* Full audit logging
-
-All controls are mapped to **industry-standard compliance frameworks**, making this project audit-ready.
+In many environments, privileged roles are assigned permanently, MFA is inconsistently enforced, and security policies are reactive rather than preventative. This project addresses those risks by implementing a **Zero Trust-based Identity and Access Management (IAM) model in Azure**, designed to meet both operational and compliance requirements.
 
 ---
 
 ## 🎯 Objectives
 
-* Implement **Role-Based Access Control (RBAC)**
-* Configure **Privileged Identity Management (PIM)**
-* Enforce **Multi-Factor Authentication (MFA)**
-* Deploy **Azure Policy** for security baselines
-* Enable **logging and monitoring**
+* Enforce **least privilege access** using Role-Based Access Control (RBAC)
+* Eliminate standing privileged access with **Privileged Identity Management (PIM)**
+* Strengthen authentication through **Multi-Factor Authentication (MFA)**
+* Prevent insecure configurations using Azure Policy
+* Enable **centralized logging and monitoring** for audit readiness
 * Map controls to **NIST, ISO 27001, SOC 2**
 
 ---
 
 ## 🏗️ Architecture Overview
 
-This environment includes:
+This environment integrates core Azure security services to enforce identity governance:
 
-* Microsoft Entra ID (users & groups)
-* Azure RBAC (subscription-level access control)
-* Conditional Access policies (MFA enforcement)
-* Azure Policy (deny insecure configurations)
-* Azure Monitor + Log Analytics (audit logging)
+* **Microsoft Entra ID** — centralized identity and group management
+* **Azure RBAC** — fine-grained access control at the subscription level
+* Conditional Access policies — MFA enforcement and access conditions
+* **Azure Policy** — proactive compliance enforcement
+* **Azure Monitor & Log Analytics** — logging, auditing, and detection
 
 ---
 
@@ -66,7 +58,7 @@ This environment includes:
 
 ### 🔐 Security Principle
 
-> All access follows the **Principle of Least Privilege**, ensuring users only receive required permissions.
+> Access is strictly governed by the **Principle of Least Privilege**, ensuring users receive only the permissions necessary to perform their roles.
 
 <img width="1545" height="402" alt="RBAC Role assignments" src="https://github.com/user-attachments/assets/94a1c790-cb3a-413e-bb26-aa0973597d7e" />
 
