@@ -60,7 +60,8 @@ This environment integrates core Azure security services to enforce identity gov
 
 > Access is strictly governed by the **Principle of Least Privilege**, ensuring users receive only the permissions necessary to perform their roles.
 
-<img width="1545" height="402" alt="RBAC Role assignments" src="https://github.com/user-attachments/assets/94a1c790-cb3a-413e-bb26-aa0973597d7e" />
+<img width="1545" height="402" alt="RBAC Role assignments" src="https://github.com/user-attachments/assets/66704f06-1d5a-4bd2-b167-35b4b10786aa" />
+
 
 ---
 
