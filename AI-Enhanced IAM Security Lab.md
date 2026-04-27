@@ -11,13 +11,13 @@ Built on **Microsoft Entra ID** and Azure security services, the solution combin
 
 ## 🎯 Objectives
 
-* Implement secure identity governance using Microsoft Entra ID
-* Enable AI-driven risk detection with Identity Protection
+* Implement **secure identity governance** using Microsoft Entra ID
+* Enable **AI-driven risk detection** with Identity Protection
 * Enforce **adaptive access control** using Conditional Access
-* Automate governance using AI-assisted Access Reviews
-* Simulate and analyze security anomalies
-* Leverage behavioral analytics through Log Analytics (KQL)
-* Strengthen posture with Microsoft Defender for Cloud
+* Automate governance using **AI-assisted Access Reviews**
+* Simulate and analyze **security anomalies**
+* Leverage **behavioral analytics** through Log Analytics (KQL)
+* Strengthen posture with **Microsoft Defender for Cloud**
 ---
 
 ## 🧱 Architecture Components
@@ -97,7 +97,7 @@ Shifts gouvernance from **manual reviews → intelligent, automated decision sup
 
 ---
 
-### 5. 🔐 Adaptive Conditional Access
+### 🔐 Adaptive Conditional Access
 
 * Implemented a **risk-based Conditional Access (CA) policy.**
 * Access is granted to standard users, but an **MFA Challenge** is automatically triggered if the AI risk level is Medium or High.
@@ -106,7 +106,7 @@ Shifts gouvernance from **manual reviews → intelligent, automated decision sup
 
 ---
 
-### 6. 📊 AI-Powered Logging & Detection
+### 📊 AI-Powered Logging & Detection
 
 Logs centralized in **Log Analytics** and analyzed using KQL.
 
@@ -152,12 +152,12 @@ Enables **behavioral anomaly detection** and supports proactive threat hunting.
 <img width="1732" height="484" alt="image" src="https://github.com/user-attachments/assets/e494be83-c79a-4f82-9ec0-574ae7e8b3e4" />
 
 
-As of testing, Defender did not immediately flag the issue. This highlights a critical security principle:
 
+As of testing, Defender did not immediately flag the issue. Detection latency can take hours (up to ~24h). 
+
+This highlights a critical security principle:
 **Prevention controls (Azure Policy) are more effective than reactive detection**
 
-* **Detection latency** can take hours (up to ~24h)
-* ### Azure Policy enforcement is immediate
 
   <img width="1893" height="368" alt="image" src="https://github.com/user-attachments/assets/4ba484ba-ad78-472f-b8a1-860609b4f61e" />
   
