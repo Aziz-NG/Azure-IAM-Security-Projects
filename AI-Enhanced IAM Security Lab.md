@@ -163,6 +163,7 @@ This highlights a critical security principle:
   
 
 
+
 ➡️ Conclusion: 
 * Use **“Deny” policy** for high-risk configurations
 * Enforced **secure-by-default deployments**
@@ -177,7 +178,7 @@ This highlights a critical security principle:
 | NIST      | PR.AC-6        | Access control         | AI access reviews    |
 | ISO 27001 | A.9.4          | Access restrictions    | Adaptive MFA         |
 | SOC 2     | CC6            | Monitoring             | Behavioral analytics |
-| Law 25    | Access control | Risk-based enforcement | Context-aware decisions |
+| Quebec Law 25    | Access control | Risk-based enforcement | Context-aware decisions |
 
 ---
 
