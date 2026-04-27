@@ -75,7 +75,7 @@ This environment integrates core Azure security services to enforce identity gov
 
 ### 🛡️ Security Benefit
 
-Reduces risk of **standing privileged access** and limits attack surface.
+Minimizes exposure by removing **standing privileged access**, a common vector in lateral movement attacks.
 
 <img width="1786" height="318" alt="PIM eligible roles" src="https://github.com/user-attachments/assets/bcf588c4-2037-4605-b926-da1cde329ebb" />
 
@@ -86,13 +86,12 @@ Reduces risk of **standing privileged access** and limits attack surface.
 
 ## 🔐 Conditional Access & MFA
 
-* Policy applied to **all users**
-* Enforces **Multi-Factor Authentication (MFA)**
+* MFA applied to **all users**
 * Global admin excluded (break-glass account)
 
 ### 🛡️ Security Benefit
 
-Protects against **credential compromise and unauthorized access**.
+Mitigates risks associated with **credential theft and phishing attacks**, aligning with Zero Trust principles.
 
 <img width="1371" height="807" alt="MFA Enforcement" src="https://github.com/user-attachments/assets/31b77aa6-1795-4a53-ba1d-ae9a10f2caa0" />
 
@@ -111,7 +110,7 @@ Protects against **credential compromise and unauthorized access**.
 
 ### 🛡️ Security Benefit
 
-Prevents insecure resources from being deployed.
+Shift security **left**, preventing insecure resources from being deployed.
 
 <img width="1899" height="494" alt="Azure Policy Enforcement" src="https://github.com/user-attachments/assets/7eccbefb-be1d-4ddf-8d2b-68308c876581" />
 
@@ -136,9 +135,9 @@ SigninLogs
 
 Provides:
 
-* Traceability
+* Full traceability of user actions
 * Threat detection capability
-* Audit readiness
+* Audit-ready evidence collection
 
 <img width="1594" height="645" alt="Log Analytics query results" src="https://github.com/user-attachments/assets/cf0c117e-beab-44fb-b512-30253ef41d24" />
 
@@ -170,22 +169,21 @@ Provides:
 
 ## 🧠 Key Security Outcomes
 
-* ✅ Enforced **least privilege access**
+* ✅ Enforced **least privilege access model**
 * ✅ Eliminated standing privileged roles (**PIM**)
-* ✅ Strengthened authentication (**MFA**)
-* ✅ Prevented insecure deployments (**Azure Policy**)
-* ✅ Achieved full **audit visibility**
+* ✅ Strengthened identity security with **MFA enforcement**
+* ✅ Prevented insecure deployments through **Azure Policy**
+* ✅ Achieved **end-to-end audit visibility**
 
 ---
 
 ## 🚀 Key Takeaways
 
-This project demonstrates how to implement **real-world cloud IAM security controls** using Azure.
+This project demonstrates how to design and implement **enterprise-grade IAM controls in Azure** using a Zero Trust approach. It reflects real-world practices used by security teams to:
 
-It reflects practices used in:
-
-* Enterprise cloud environments
-* Security operations teams
-* Compliance-driven organizations
+* Reduce attack surface
+* Improve identity governance
+* Meet compliance requirements
+* Enhance detection and response capabilities
 
 ---
